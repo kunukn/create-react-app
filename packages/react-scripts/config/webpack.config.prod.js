@@ -177,6 +177,7 @@ module.exports = {
               babelrc: false,
               presets: [require.resolve('babel-preset-react-app')],
               // @remove-on-eject-end
+              plugin: [require.resolve('babel-plugin-styled-components')],
               compact: true,
             },
           },
